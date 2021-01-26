@@ -58,6 +58,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047E2EF525C0609400D9C6AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				046A309D25B6D6CF00967497 /* LoginViewController.swift */,
+				046A309A25B6D6BA00967497 /* SignUpViewController.swift */,
+				046A30A025B6D6F800967497 /* ResetPasswordViewController.swift */,
+				046A308D25B586D700967497 /* ListTableViewController.swift */,
+				045B4BB625BC1D05007F0882 /* DetailTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		047E2EF625C060F900D9C6AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046A30C025BADFE200967497 /* ListRecord.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		047E2EF725C0616600D9C6AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				046A309325B5941900967497 /* ListTableViewCell.swift */,
+				046A309425B5941900967497 /* ListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		04D4F6F325B0417A0028B716 = {
 			isa = PBXGroup;
 			children = (
@@ -79,17 +108,12 @@
 		04D4F6FE25B0417A0028B716 /* toDoList */ = {
 			isa = PBXGroup;
 			children = (
-				046A309325B5941900967497 /* ListTableViewCell.swift */,
-				046A309425B5941900967497 /* ListTableViewCell.xib */,
+				047E2EF625C060F900D9C6AA /* Model */,
+				047E2EF725C0616600D9C6AA /* View */,
+				047E2EF525C0609400D9C6AA /* Controller */,
 				04D4F6FF25B0417A0028B716 /* AppDelegate.swift */,
 				04D4F70125B0417A0028B716 /* SceneDelegate.swift */,
 				04D4F70525B0417A0028B716 /* Main.storyboard */,
-				045B4BB625BC1D05007F0882 /* DetailTableViewController.swift */,
-				046A309A25B6D6BA00967497 /* SignUpViewController.swift */,
-				046A309D25B6D6CF00967497 /* LoginViewController.swift */,
-				046A30A025B6D6F800967497 /* ResetPasswordViewController.swift */,
-				046A308D25B586D700967497 /* ListTableViewController.swift */,
-				046A30C025BADFE200967497 /* ListRecord.swift */,
 				04D4F70825B0417C0028B716 /* Assets.xcassets */,
 				04D4F70A25B0417C0028B716 /* LaunchScreen.storyboard */,
 				04D4F70D25B0417C0028B716 /* Info.plist */,

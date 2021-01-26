@@ -20,16 +20,6 @@ class ListTableViewController: UITableViewController {
         
         tableView.register(UINib(nibName: "ListTableViewCell", bundle: nil), forCellReuseIdentifier: "ListCell")
         
-        //        if let array = Bundle.main.loadNibNamed("ListTableViewCell", owner: nil, options: nil)
-        //        let listTableViewCell = array.first as? ListTableViewCell{
-        //            view.addSubview(listTableViewCell)
-        //        }
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
     @IBAction func logOutAction(_ sender: Any) {
@@ -109,8 +99,7 @@ class ListTableViewController: UITableViewController {
         default:
             break
         }
-        //        cell.userNameLabel.text = "123"
-        //        #messageData[indexPath.row].userName
+       
         
         // Configure the cell...
         return cell
